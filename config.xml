@@ -23,7 +23,7 @@
   <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
   <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
   <plugin name="cordova-plugin-statusbar" spec="~2.4.1" />
-  <plugin name="cordova-plugin-splashscreen" spec="github.com/apache/cordova-plugin-splashscreen.git" />
+  <plugin name="cordova-plugin-splashscreen" spec="https://github.com/apache/cordova-plugin-splashscreen.git" />
 
   <preference name="phonegap-version" value="cli-8.0.0" />
   <preference name="orientation" value="portrait" />
