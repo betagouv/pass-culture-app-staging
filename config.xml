@@ -23,11 +23,11 @@
   <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
   <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
   <plugin name="cordova-plugin-statusbar" spec="~2.4.1" />
-  <plugin name="cordova-plugin-splashscreen" spec="~4.0.1" />
+  <plugin name="cordova-plugin-splashscreen" spec="github.com/apache/cordova-plugin-splashscreen.git" />
 
   <preference name="phonegap-version" value="cli-8.0.0" />
   <preference name="orientation" value="portrait" />
-  <preference name="SplashScreen" value="splash" />
+  <preference name="SplashScreen" value="screen" />
 
   <icon src="icon/ic_launcher_google_play.png" />
 
@@ -58,12 +58,13 @@
   <icon src="icon/ic_launcher_xxhdpi.png" platform="android" qualifier="xxhdpi" />
   <icon src="icon/ic_launcher_xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
 
+  <!-- NOT WORKING :( -->
   <splash src="splash.png" />
 
-  <splash platform="android" qualifier="ldpi" src="splash.png" />
-  <splash platform="android" qualifier="mdpi" src="splash.png" />
-  <splash platform="android" qualifier="hdpi" src="splash.png" />
-  <splash platform="android" qualifier="xhdpi" src="splash.png" />
+  <!-- <splash platform="android" qualifier="ldpi" src="splash.png" /> -->
+  <!-- <splash platform="android" qualifier="mdpi" src="splash.png" /> -->
+  <!-- <splash platform="android" qualifier="hdpi" src="splash.png" /> -->
+  <!-- <splash platform="android" qualifier="xhdpi" src="splash.png" /> -->
 
   <!-- iPhone and iPod touch -->
   <!-- <splash src="Default.png" platform="ios" width="320" height="480" /> -->
