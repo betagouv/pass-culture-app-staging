@@ -30,6 +30,7 @@
   <plugin name="cordova-plugin-statusbar" spec="~2.4.1" />
 
   <preference name="orientation" value="portrait" />
+  <preference name="SplashScreen" value="splash" />
 
   <icon src="icons/pc_small.jpg" />
 
